@@ -70,9 +70,15 @@ p{
 
     .box {
         height: fit-content;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         background: linear-gradient(135deg, #004AAD, #CB6CE6);
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 4rem;
+        padding-top: 1rem;
     }
 
     .left {
