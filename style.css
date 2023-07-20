@@ -1,0 +1,106 @@
+@font-face {
+    font-family: CopperPlateGothic;
+    src: url(copperplate-gothic-std-32-ab_FenaG/Copperplate\ Gothic\ Std\ 32\ AB/);
+}
+
+*{
+    color: white;
+}
+
+.main {
+    background: linear-gradient(125deg, #CDFFD8, #94B9FF);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 60%;
+    width: 70%;
+    background: linear-gradient(90deg, #004AAD, #CB6CE6);
+    border-radius: 50px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-family: CopperPlateGothic;
+    font-size: 7rem;
+}
+
+.icon {
+    height: 20%;
+}
+
+.left {
+    border-right: 4px solid white;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.qr {
+    width: 100%;
+    padding-bottom: 2.75rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .main {
+        height: auto;
+    }
+
+    .box {
+        height: fit-content;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background: linear-gradient(135deg, #004AAD, #CB6CE6);
+    }
+
+    .left {
+        border-right: 0px;
+        border-bottom: 4px solid white;
+        width: 105%;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .icon {
+        width: 30%;
+    }
+
+    .details {
+        padding-top: 3rem;
+    }
+
+    .right {
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .qr {
+        width: 40%;
+    }
+}
